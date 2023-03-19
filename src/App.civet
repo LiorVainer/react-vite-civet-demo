@@ -1,4 +1,5 @@
 {useState} from "react"
+Spline from '@splinetool/react-spline';
 classes from "./App.module.css"
 
 type Item = 
@@ -23,5 +24,8 @@ App := () ->
       Hello world
       <p>Count: {count}
       <button {onClick()}>Click me
+      <Spline scene="https://prod.spline.design/kLfkVC-UjC4jb4jb/scene.splinecode" />
+
+
 
 export default App
